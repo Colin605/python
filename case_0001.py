@@ -113,3 +113,18 @@ f1, f2, f3 = counter2()
 print("case 4 result:")
 print("f1 = %s; f2 = %s; f3 = %s" % (f1, f2, f3))
 
+'''
+the result show:
+
+case 1 result:
+f1 = begin; f2 = <function counter.<locals>.f at 0x000000000280CC80>; f3 = <function counter.<locals>.f at 0x000000000280CD08>; f4 = <function counter.<locals>.f at 0x000000000280CD90>; f5 = end;
+case 2 result:
+f1 = 1; f2 = 4; f3 = 9
+函数f的类型是:<class 'function'>
+函数f的类型是:<class 'function'>
+函数f的类型是:<class 'function'>
+case 3 result:
+f1 = 1; f2 = 4; f3 = 9
+case 4 result:
+f1 = 1; f2 = 4; f3 = 9
+'''
